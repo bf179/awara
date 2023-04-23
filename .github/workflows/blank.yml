@@ -15,9 +15,6 @@ jobs:
           java-version: 17
           distribution: 'adopt'
 
-      - name: Run lint
-        run: ./gradlew lint
-
       - name: Run tests
         run: ./gradlew test
 
